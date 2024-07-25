@@ -2,7 +2,7 @@
 
 void SET_LED_OUTPUT()
 {
-    gpio_set_direction(5), GPIO_MODE_OUTPUT();
+    gpio_set_direction(5, GPIO_MODE_OUTPUT);
 }
 void LED_ON()
 {
