@@ -61,5 +61,5 @@ D:/ESP32_Blank/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 D:/ESP32_Blank/build/esp-idf/perfmon/libperfmon.a
 D:/ESP32_Blank/build/esp-idf/spiffs/libspiffs.a
 D:/ESP32_Blank/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
-D:/ESP32_Blank/build/esp-idf/Main/libMain.a
 D:/ESP32_Blank/build/esp-idf/LED/libLED.a
+D:/ESP32_Blank/build/esp-idf/Main/libMain.a
