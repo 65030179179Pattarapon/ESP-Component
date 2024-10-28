@@ -1,2 +1,2 @@
-idf_component_register(SRCS "new_component.c"
+idf_component_register(SRCS "LED.c"
                     INCLUDE_DIRS "include")

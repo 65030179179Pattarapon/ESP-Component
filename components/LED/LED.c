@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include "LED.h"
-#include "driver/gpio.h"
 
-void SET_LED_OUTPUT()
+#include "esp_log.h"
+
+void on(void)
 {
-    gpio_set_direction(5, GPIO_MODE_OUTPUT);
-}
-void LED_ON()
-{
-    gpio_set_level(5,1);
+    ESP_LOGI("LED", "LED ON");
 }
 
-void LED_OFF()
+void off(void)
 {
-    gpio_set_level(5,0);
+    ESP_LOGI("LED", "LED OFF");
 }
